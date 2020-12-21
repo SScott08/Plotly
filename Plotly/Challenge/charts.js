@@ -24,6 +24,7 @@ function init() {
 init();
 
 function optionChanged(newSample) {
+  console.log(newSample)
   // Fetch new data each time a new sample is selected
   buildMetadata(newSample);
   buildCharts(newSample);
